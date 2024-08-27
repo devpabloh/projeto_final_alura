@@ -4,16 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Allura Challenge</title>
+    <link rel="stylesheet" href="./Assets/css/globa.css">
+    <link rel="stylesheet" href="./Assets/css/style.css">
 </head>
 <body>
     <header>
         <img src="Assets/Imagens/logo.svg" alt="">
     </header>
     <main>
-        
-    </main>
-    <footer>
+        <section class="container-app">
+            <textarea name="" id="entrada" class="areaDeTexto" placeholder="Digite aqui..."></textarea>
+            <div class="informacoes">
+                <img src="Assets/Imagens/circulo-exclamacao.svg" alt="">
+                <p>Apenas letras minúsculas e sem acento.</p>
+            </div>
+            <div class="buttons">
+                <button class="button button-blue" id="transformar">Criptografar</button>
+                <button class="button button-white">Descriptografar</button>
+            </div>
 
-    </footer>
+            <div class="container-cript-descript">
+                <textarea name="" id="saida" class="areaDeTexto2"></textarea>
+                <button class="button button-copiar" id="copiar">Copiar</button>
+            </div>
+
+        </section>
+    </main>
+    <script src="Assets/js/escript.js"></script>
 </body>
 </html>

@@ -1,0 +1,81 @@
+header img{
+    margin: 20px ;
+}
+
+.container-app{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.areaDeTexto{
+    width: 90%;
+    height: 1715px;
+    margin-bottom: 20px;
+    border: none;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.informacoes{
+    display: flex;
+    gap: 8px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    gap: 24px;
+    margin-top: 10px;
+}
+
+.button{
+    border-radius: 24px;
+    padding: 24px;
+    font-size: 16px;
+}
+
+.button-blue{
+    background-color: #0A3871;
+    color: #FFFFFF;
+}
+
+.button-white{
+    background-color: transparent;
+    color: #0A3871;
+    border: 2px solid #0A3871;
+    margin-bottom: 20px;
+}
+
+.container-cript-descript{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    background-color: #FFFFFF;
+    height: 595px;
+    border-radius: 32px;
+}
+
+.areaDeTexto2{
+    height: 1715px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.button-copiar{
+    width: 90%;
+    margin-bottom: 20px;
+}
+
+
+
