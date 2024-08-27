@@ -14,9 +14,12 @@ header img{
     width: 90%;
     height: 1715px;
     margin-bottom: 20px;
+    margin-left: 5px;
     border: none;
     font-size: 24px;
     font-weight: 400;
+    text-align: justify;
+
 }
 
 .informacoes{
@@ -70,6 +73,7 @@ header img{
     background-color: transparent;
     font-size: 24px;
     font-weight: 400;
+    text-align: justify;
 }
 
 .button-copiar{
@@ -77,5 +81,22 @@ header img{
     margin-bottom: 20px;
 }
 
+@media (min-width:768px){
+    .buttons{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .button{
+        width: 45%;
+    }
+
+    .button-blue{
+        margin-bottom: 20px;
+    }
+
+}
 
 
