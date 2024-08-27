@@ -76,6 +76,10 @@ header img{
     text-align: justify;
 }
 
+#mensagem, #mensagem p, #mensagem h1{
+   background-color: #FFFFFF;
+}
+
 .button-copiar{
     width: 90%;
     margin-bottom: 20px;
@@ -96,6 +100,16 @@ header img{
     .button-blue{
         margin-bottom: 20px;
     }
+
+    .container-app{
+        width: 768px;
+        height: 1174px;
+        margin-bottom: 20px;
+    }
+
+}
+
+@media (min-width: 1440px){
 
 }
 

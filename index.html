@@ -11,20 +11,21 @@
     <header>
         <img src="Assets/Imagens/logo.svg" alt="">
     </header>
-    <main>
+    <main class="container">
         <section class="container-app">
-            <textarea name="" id="entrada" class="areaDeTexto" placeholder="Digite aqui..."></textarea>
-            <div class="informacoes">
+            <textarea name="" id="entrada" class="areaDeTexto item1" placeholder="Digite aqui..."></textarea>
+            <div class="informacoes item2">
                 <img src="Assets/Imagens/circulo-exclamacao.svg" alt="">
                 <p>Apenas letras minúsculas e sem acento.</p>
             </div>
-            <div class="buttons">
+            <div class="buttons item3">
                 <button class="button button-blue" id="transformar">Criptografar</button>
                 <button class="button button-white" id="descriptografar">Descriptografar</button>
             </div>
 
-            <div class="container-cript-descript" id="containerCriptDescript">
-                <textarea name="" id="saida" class="areaDeTexto2" disabled></textarea>
+            <div class="container-cript-descript item4" id="containerCriptDescript">
+                <textarea name="" id="saida" class="areaDeTexto2" readonly></textarea>
+                <div id="mensagem" style="display: none;"></div>
                 <button class="button button-copiar" id="copiar">Copiar</button>
             </div>
 
